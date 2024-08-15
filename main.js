@@ -148,14 +148,6 @@ function loginBtnClicked() {
 }
 
 
-// function logout() {
-//   localStorage.removeItem("token")
-//   localStorage.removeItem("user")
-//   showAlert("تم تسجيل خروجك بنجاح")
-//   setupUI()
-//   location.reload()
-// }
-
 function showAlert(customMessage, type = "success") {
   const successAlert = document.getElementById("success-alert")
   const appendAlert = (message, type) => {
@@ -210,7 +202,7 @@ function registerBtnClicked() {
       BootstrapHide.hide()
       setupUI()
       // hide alert
-      showAlert("تم تسجيل دخولك بنجاح")
+      showAlert(" تم تسجيل دخولك بنجاح")
     })
     .catch((error) => {
       const message = error.response.data.message
