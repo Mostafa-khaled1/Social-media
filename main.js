@@ -3,11 +3,11 @@
 let currentPage = 1
 lastPage = 1
 window.addEventListener("scroll", () => {
-  // const endOfPage = window.innerHeight + window.pageYOffset >= document.body.offsetHeight;
-  // if (endOfPage && currentPage < lastPage) {
-  //   currentPage = currentPage + 1
-  //   getPost(false, currentPage)
-  // }
+  const endOfPage = window.innerHeight + window.pageYOffset >= document.body.offsetHeight;
+  if (endOfPage && currentPage < lastPage) {
+    currentPage = currentPage + 1
+    getPost(false, currentPage)
+  }
 })
 //========= خاص بعمليه الاسكرول ========//
 getPost()
