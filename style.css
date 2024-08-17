@@ -232,7 +232,7 @@ body{
 }
 @media(max-width: 999px) {
   #add-post{
-    top: 15px;
+    top: 23px;
     z-index: 1;
     left: 50%;
     right: 50%;
@@ -245,5 +245,10 @@ body{
   #add-post span{
     margin: -5px auto;
     margin-right: -3px;
+  }
+}
+@media(max-width: 999px) {
+  .navbar{
+    margin-top: -29px;
   }
 }
