@@ -232,24 +232,12 @@ body{
 }
 @media(max-width: 999px) {
   #add-post{
-    top: 23px;
-    z-index: 1;
+    position: relative;
+    z-index: 4;
     left: 50%;
-    right: 50%;
     transform: translateX(-50%);
-    width: 40px;
-    height: 40px; 
-    position: absolute;
+    bottom: 60%;
+    margin-top: 23px;
   }
 }
-@media(max-width: 999px) {
-  #add-post span{
-    margin: -5px auto;
-    margin-right: -3px;
-  }
-}
-@media(max-width: 999px) {
-  .navbar{
-    margin-top: -29px;
-  }
-}
+
