@@ -52,10 +52,12 @@ body{
     background-color: rgb(77, 128, 129);
 }
 #add-post span{
-    position: absolute;
-    bottom: 0%;
-    right: 22%;
-    color: rgb(255, 253, 253);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 253, 253);
 }
 #create-body-input{
     width: 100%;
